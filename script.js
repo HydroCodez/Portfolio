@@ -1,9 +1,3 @@
-var container = document.getElementsByClassName('container')[0];
-document.getElementById('toggler').addEventListener('change', (event) => {
-  console.log(toggler)
-  event.target.checked ? container.removeAttribute('data-theme') : container.setAttribute('data-theme', 'light');
-});
-
 const k = {
     Game: 0,
     Streaming: 1,
